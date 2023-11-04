@@ -16,6 +16,5 @@ function updateCounter() {
 
 $("button").on(
   'click',
-  _.debounce(updateCounter, 300),
-  { leading: true, trailing: false }
+  _.debounce(updateCounter, 300, { leading: true, trailing: false })
 );
