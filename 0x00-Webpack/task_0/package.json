@@ -14,8 +14,8 @@
     "dev": "webpack --mode none"
   },
   "keywords": [],
-  "type": "module",
   "author": "",
+  "type": "module",
   "license": "ISC",
   "description": ""
 }
