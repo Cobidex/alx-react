@@ -18,7 +18,6 @@ module.exports= {
       },
       {
         test: /\.(gif|png|jpeg|jpg|svg)$/i,
-        type: 'asset/resource',
         use: [
           {
             loader: 'image-webpack-loader',
@@ -27,6 +26,7 @@ module.exports= {
             }
           }
         ],
+        type: 'asset/resource',
       }
     ]
   },
