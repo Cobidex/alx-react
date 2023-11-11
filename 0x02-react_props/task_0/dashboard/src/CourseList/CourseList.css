@@ -1,0 +1,15 @@
+.CourseList {
+    width: 90%;
+    padding: 2.5%;
+    border: 1px solid #474242;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.second {
+    text-align: left;
+}
+
+#tophead {
+    border: 1px solid #180606;
+}

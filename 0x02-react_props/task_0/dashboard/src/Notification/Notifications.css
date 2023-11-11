@@ -1,0 +1,36 @@
+#notification-block {
+    position: absolute;
+    height: 100px;
+    width: 50%;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.menuItem {
+    font-weight: bold;
+    display: block;
+    font-size: 14px;
+}
+
+.Notifications {
+    border: dotted 1px #c7254e;
+    position: absolute;
+    padding: 4px;
+    top: 20px;
+    font-size: 14px;
+}
+
+.Notifications ul {
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+[data-notification-type='default'] {
+    color: blue
+}
+
+[data-notification-type='urgent'] {
+    color: red;
+}

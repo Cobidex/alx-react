@@ -1,0 +1,12 @@
+.App-body {
+    padding: 20px;
+  }
+  
+  .App-body form button{
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .App-body p {
+    font-size: 16px;
+  }
